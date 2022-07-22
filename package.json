@@ -1,0 +1,31 @@
+{
+  "name": "learn-ts-4-fun",
+  "version": "1.0.0",
+  "description": "Project to learn TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "tsNode": "cd src && ts-node index.ts",
+    "start": "nodemon",
+    "transpile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaiStormBlesed/learn-ts-4-fun.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts"
+  ],
+  "author": "Isai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaiStormBlesed/learn-ts-4-fun/issues"
+  },
+  "homepage": "https://github.com/IsaiStormBlesed/learn-ts-4-fun#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
